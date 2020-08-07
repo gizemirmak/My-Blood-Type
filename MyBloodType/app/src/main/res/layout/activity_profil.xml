@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="56dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtKanGrubu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/kangrubu" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="56dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtTelefon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/telefon" />
+
+    <TextView
+        android:id="@+id/txtKullaniciAdi"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="72dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnProfiliDüzenle"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="8dp"
+        android:background="#FA9191"
+        android:text="PROFİLİ DÜZENLE"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKullaniciAdi" />
+
+    <TextView
+        android:id="@+id/txtAdSoyad"
+        android:layout_width="168dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="32dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/txtTelefon"
+        android:layout_width="168dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAdSoyad" />
+
+    <TextView
+        android:id="@+id/txtKanGrubu"
+        android:layout_width="168dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTelefon" />
+
+    <Button
+        android:id="@+id/btnCagriOlustur"
+        android:layout_width="137dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginLeft="177dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="140dp"
+        android:background="#FA9191"
+        android:text="ÇAĞRI OLUŞTUR"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKanGrubu" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="114dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtKullaniciAdi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="56dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtAdSoyad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/adsoyad" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
